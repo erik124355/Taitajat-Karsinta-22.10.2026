@@ -1,4 +1,4 @@
-
+<!-- AI-KÄYTTÖ ALKAA: Työkalu: Microsoft Copilot (Copilot SDK VS Codessa). Tarkoitus: tapahtumakäyttöliittymän toteutus ja muokkaus, ominaisuuksien lisääminen sekä virheiden tarkistus. -->
 <script setup>
 import '../styles/style.css';
 import { ref, computed, onMounted, onUnmounted } from 'vue';
@@ -637,3 +637,6 @@ onUnmounted(() => {
     </div>
   </div>
 </template>
+
+<!-- AI-KÄYTTÖ PÄÄTTYY -->
+<!-- AI käyttö päättyy -->
