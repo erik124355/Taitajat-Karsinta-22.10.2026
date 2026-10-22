@@ -630,6 +630,11 @@ onUnmounted(() => {
       <a href="#etusivu" class="footer-brand">Tapahtumakalenteri</a>
       <p>Löydä tapahtumia ympäri Suomen.</p>
       <span>© {{ new Date().getFullYear() }} Tapahtumakalenteri</span>
+      <div class="footer-socials" role="group" aria-label="Sosiaalisen median kuvakkeet">
+        <img :src="imageModules['../images/linkedin.svg']" alt="LinkedIn" />
+        <img :src="imageModules['../images/facebook.svg']" alt="Facebook" />
+        <img :src="imageModules['../images/instagram.svg']" alt="Instagram" />
+      </div>
     </footer>
 
     <div id="suosikit">

@@ -802,6 +802,7 @@ a {
 /* Footer */
 
 .site-footer {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -810,6 +811,23 @@ a {
   border-top: 1px solid var(--border);
   background: #f8faf8;
   text-align: center;
+}
+
+.footer-socials {
+  position: absolute;
+  top: 50%;
+  right: max(24px, calc((100vw - 1200px) / 2));
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transform: translateY(-50%);
+}
+
+.footer-socials img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: var(--accent-dark);
 }
 
 .footer-brand {
@@ -962,6 +980,12 @@ a {
   .events-section {
     width: calc(100% - 36px);
     padding: 55px 0 65px;
+  }
+
+  .footer-socials {
+    position: static;
+    margin-top: 8px;
+    transform: none;
   }
 
   .section-heading {
