@@ -68,3 +68,6 @@ npm run build
 
 Tässä projektissa on käytetty **Microsoft Copilotia (Copilot SDK VS Codessa)** ja **OpenAI ChatGPT:tä** käyttöliittymän kehittämisen tukena. Tekoälyä on hyödynnetty Vue-komponenttien ja CSS-tyylien muokkaamisessa ja responsiivisuuden sekä virheiden etsimisessä. ChatGPT:tä on lisäksi käytetty tapahtumien haun, suodatuksen, lajittelun, tapahtumakohtaisen näkymän ja API-yhteyden vianmäärityksen tukena.
 
+## JSON-tiedoston muokkaus
+
+Kuvien tiedostopolkuja päivitettiin vastaamaan projektin kansiorakennetta, jotta kuvat latautuvat sovelluksessa oikein.
