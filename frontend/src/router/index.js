@@ -1,13 +1,13 @@
 
 import { createRouter, createWebHistory } from 'vue-router';
 
-import HomeView from '../views/index.vue';
+import TapahtumaView from '../views/tapahtuma.vue';
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'tapahtuma',
+    component: TapahtumaView
   },
 ];
 
