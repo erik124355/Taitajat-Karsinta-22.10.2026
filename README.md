@@ -60,9 +60,6 @@ npm run build
 ## Keskeneräiset tai puuttuvat ominaisuudet
 
 - Erillistä suosikkitapahtumien näkymää ei ole toteutettu; suosikit tallentuvat ja näkyvät tapahtumakorteissa. (Tehtävän annossa ei pyydetty)
-- Lajittelu osallistujamäärän perusteella puuttuu.
-- Tapahtumien päivämäärä- ja kestotietoja ei ole nykyisessä JSON-aineistossa, joten niitä ei näytetä.
-- Käyttöliittymä hakee backendin osoitteesta `http://localhost:3000`; backend-osoitteen erillistä frontend-asetusta ei ole toteutettu.
 
 ## Tekoälyn käyttö
 
